@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const ProductCard = ({ product }) => {
     return (
-        <a href={`/products/${product._id}`}>
+        <Link to={`/products/${product._id}`}>
             <div className="shadow-md hover:cursor-pointer hover:shadow-xl rounded-lg">
                 <div>
                     <img
@@ -19,7 +21,7 @@ const ProductCard = ({ product }) => {
                     </div>
                 </div>
             </div>
-        </a>
+        </Link>
     );
 };
 export default ProductCard;
