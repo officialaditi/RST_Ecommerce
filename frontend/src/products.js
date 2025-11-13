@@ -2,7 +2,7 @@ const products = [
 	{
 		_id: '1',
 		name: 'Women Floral Print Lounge T-Shirt',
-		image: './female_img_3.jpg',
+		image: '/images/female_img_3.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Burberry',
@@ -15,7 +15,7 @@ const products = [
 	{
 		_id: '2',
 		name: 'Pack of 2 Round Neck T-Shirts',
-		image: './male_img_4.jpg',
+		image: '/images/male_img_4.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Urban Outfitters',
@@ -28,7 +28,7 @@ const products = [
 	{
 		_id: '3',
 		name: 'Native Youth',
-		image: './male_img_2.jpg',
+		image: '/images/male_img_2.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Ralph Lauren',
@@ -41,7 +41,7 @@ const products = [
 	{
 		_id: '4',
 		name: 'Print Crop Lounge Top',
-		image: './female_img_1.jpg',
+		image: '/images/female_img_1.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Gucci',
@@ -54,7 +54,7 @@ const products = [
 	{
 		_id: '5',
 		name: 'Crochet Detail Lightweight Top',
-		image: './female_img_2.jpg',
+		image: '/images/female_img_2.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Chanel',
@@ -67,7 +67,7 @@ const products = [
 	{
 		_id: '6',
 		name: 'Juventus Henley Neck Jersey',
-		image: './male_img_1.jpg',
+		image: '/images/male_img_1.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Tom Ford',
@@ -80,7 +80,7 @@ const products = [
 	{
 		_id: '7',
 		name: 'Mavericks Drake Tank Top',
-		image: './male_img_3.jpg',
+		image: '/images/male_img_3.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Calvin Klein',
@@ -93,7 +93,7 @@ const products = [
 	{
 		_id: '8',
 		name: 'Printed Polo Collar T-shirt',
-		image: './female_img_4.jpg',
+		image: '/images/female_img_4.jpg',
 		description:
 			'Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.',
 		brand: 'Chanel',
