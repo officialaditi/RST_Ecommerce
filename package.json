@@ -1,0 +1,20 @@
+{
+  "name": "rst_store",
+  "version": "1.0.0",
+  "description": "mern stack project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "aditi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
