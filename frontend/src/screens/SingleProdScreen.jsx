@@ -1,12 +1,20 @@
 import { useParams, Link } from "react-router-dom";
-import products from "../products";
 import Rating from "../components/Rating";
 import clsx from "clsx";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const SingleProductScreen = () => {
     const { id } = useParams();
-    const product = products.find((prod) => prod._id === id);
+    const [product, setProduct] = useState({});
 
+    useEffect(() => {
+        const fetchSingleProduct = async () => {
+            const { data } = await axios.get(`/api/products/${id}`);
+            setProduct(data);
+        };
+        fetchSingleProduct();
+    }, [id]);
     return (
         <div>
             <Link

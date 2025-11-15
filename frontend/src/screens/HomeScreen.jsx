@@ -1,7 +1,19 @@
-import products from "../products";
 import ProductCard from "../components/ProductCard";
+import axios from "axios";
+import { useState, useEffect, use } from "react";
 
 const HomeScreen = () => {
+    const [products, setProducts] = useState([]);
+    useEffect(() => {
+        const fetchProducts = async () => {
+            const { data } = await axios.get(
+                "/api/products"
+            );
+            setProducts(data);
+        };
+        fetchProducts();
+    }, []);
+
     return (
         <>
             <h1 className="font-bold text-3xl underline text-center my-6">
